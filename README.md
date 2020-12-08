@@ -1,19 +1,6 @@
 # inpaiting
 inpaiting method based upon the paper "Object Removal by Exemplar-Based Inpainting"
 
-## Mask selector
-
-A mask selector has been designed to perform the painting process.
-The mask is represented by a grayscale image of the same size
-than the image to be processed. The occlusion zone takes the value 0 while its complement
-takes the value 255.
-To generate masks you have to run the MaskSelector class with the
-following commands
-
-### image = cv2.imread(image_address)
-### MS = MaskSelector(image )
-### MS. run (address_output )
-
 ## Inpaiting Class
 
 There is a class Criminisi_Inpaint which has the constructor which takes
