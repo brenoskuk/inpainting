@@ -1,7 +1,7 @@
-# inpaiting
-inpaiting method based upon the paper "Object Removal by Exemplar-Based Inpainting"
+# inpainting
+inpainting method based upon the paper "Object Removal by Exemplar-Based Inpainting"
 
-## Inpaiting Class
+## inpainting Class
 
 There is a class Criminisi_Inpaint which has the constructor which takes
 how argument an image, a mask; the size of the patch (standard is 9); the
